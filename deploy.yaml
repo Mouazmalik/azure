@@ -55,4 +55,4 @@ jobs:
             if [ $(docker ps -q -f name=node-container1) ]; then
               docker rm -f node-container1
             fi
-            docker run -d -p 5000:5000 --name node-container1 mouazmalik123/nodeimages1:latest
+            docker run -d -p 3000:3000 --name node-container1 mouazmalik123/nodeimages1:latest
