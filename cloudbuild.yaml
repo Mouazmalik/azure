@@ -14,7 +14,7 @@ steps:
       - 'my-app'
       - '--image=gcr.io/$PROJECT_ID/my-app:$COMMIT_SHA'
       - '--platform=managed'
-      - '--region=us-central1'
+      - '--region=$_REGION'
       - '--allow-unauthenticated'
     id: 'Deploy to Cloud Run'
 
@@ -24,3 +24,5 @@ substitutions:
 
 timeout: '1200s'
 
+# Cloud Logging configuration
+logging: CLOUD_LOGGING_ONLY
