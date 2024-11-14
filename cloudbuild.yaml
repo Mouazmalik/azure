@@ -25,4 +25,4 @@ substitutions:
 timeout: '1200s'
 
 # Cloud Logging configuration
-logging: CLOUD_LOGGING_ONLY
+logsBucket: "gs://my-bucket01
