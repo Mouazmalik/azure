@@ -20,11 +20,7 @@ steps:
 
 substitutions:
   _SERVICE_NAME: 'my-app'
-<<<<<<< HEAD
-  _REGION: 'me-central1'
-=======
-  _REGION: 'asia-east2'
->>>>>>> 5fdbcaa (done)
+  _REGION: 'asia-east2'  # Choose the region you want to use
 
 timeout: '1200s'
 
