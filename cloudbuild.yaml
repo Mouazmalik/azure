@@ -20,7 +20,7 @@ steps:
 
 substitutions:
   _SERVICE_NAME: 'my-app'
-  _REGION: 'us-central1'
+  _REGION: 'me-central1'
 
 timeout: '1200s'
 
